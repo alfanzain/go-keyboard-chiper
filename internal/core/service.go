@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/alfanzain/keyboard-chiper/internal/core/helper"
+	"github.com/alfanzain/go-keyboard-chiper/internal/core/helper"
 )
 
 type Service interface {

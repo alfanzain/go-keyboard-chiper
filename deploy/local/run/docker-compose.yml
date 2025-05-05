@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: ../../../
+      dockerfile: ./build/package/Dockerfile
+    ports:
+      - "9066:9066"
+    environment:
+      - LISTEN_PORT=9066
